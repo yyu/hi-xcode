@@ -10,6 +10,8 @@
 		1B956D9221DAA2B8002D5845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B956D9121DAA2B8002D5845 /* AppDelegate.swift */; };
 		1B956D9421DAA2BB002D5845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B956D9321DAA2BB002D5845 /* Assets.xcassets */; };
 		1B956D9721DAA2BB002D5845 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B956D9521DAA2BB002D5845 /* MainMenu.xib */; };
+		1B956DA121DAA433002D5845 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B956D9F21DAA433002D5845 /* MainWindowController.swift */; };
+		1B956DA221DAA433002D5845 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B956DA021DAA433002D5845 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1B956D9621DAA2BB002D5845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1B956D9821DAA2BB002D5845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B956D9921DAA2BB002D5845 /* RandomPassword.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RandomPassword.entitlements; sourceTree = "<group>"; };
+		1B956D9F21DAA433002D5845 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		1B956DA021DAA433002D5845 /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				1B956D9521DAA2BB002D5845 /* MainMenu.xib */,
 				1B956D9821DAA2BB002D5845 /* Info.plist */,
 				1B956D9921DAA2BB002D5845 /* RandomPassword.entitlements */,
+				1B956D9F21DAA433002D5845 /* MainWindowController.swift */,
+				1B956DA021DAA433002D5845 /* MainWindowController.xib */,
 			);
 			path = RandomPassword;
 			sourceTree = "<group>";
@@ -119,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B956D9421DAA2BB002D5845 /* Assets.xcassets in Resources */,
+				1B956DA221DAA433002D5845 /* MainWindowController.xib in Resources */,
 				1B956D9721DAA2BB002D5845 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B956DA121DAA433002D5845 /* MainWindowController.swift in Sources */,
 				1B956D9221DAA2B8002D5845 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
