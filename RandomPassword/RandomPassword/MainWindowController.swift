@@ -17,5 +17,9 @@ class MainWindowController: NSWindowController {
 
         // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
     }
-    
+
+    @IBAction func generatePassword(sender: AnyObject) {
+        textField.stringValue = "button clicked"
+    }
+
 }

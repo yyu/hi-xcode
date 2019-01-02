@@ -38,6 +38,9 @@
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="generatePasswordWithSender:" target="-2" id="oY3-C6-w8J"/>
+                        </connections>
                     </button>
                 </subviews>
             </view>
