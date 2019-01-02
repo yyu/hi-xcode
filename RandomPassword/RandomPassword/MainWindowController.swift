@@ -10,6 +10,8 @@ import Cocoa
 
 class MainWindowController: NSWindowController {
 
+    @IBOutlet weak var textField: NSTextField!
+
     override func windowDidLoad() {
         super.windowDidLoad()
 
